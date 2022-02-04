@@ -1,0 +1,191 @@
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 100%;
+  padding:5px 0;
+}
+    background:#fff; 
+}
+
+}
+select{
+  color:white;
+    padding:5px 0;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    outline: 0;
+    background: #ffffff;
+    height: 35px;
+    line-height: 25px;
+    padding: 5px 15px;
+    width: 100%;
+    color:#999;
+}
+input[type=submit] {
+  width: 50%;
+  background-color:blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=text],input[type=password], select,input[type="date"],input[type="emailid"],textarea {
+  width:80%;
+  padding: 12px 20px;
+  color:rgb(201, 184, 184);
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: Georgia, serif;
+  font-size: 60px;
+  color:black;
+}
+button1 {
+  background-color: transparent;
+  color:white; /* black*/
+  border: 3px solid #4CAF50;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color:  transparent;
+  color: white; 
+  border-radius: 5px;
+  border: 3px solid rgba(31, 58, 147, 1);
+}
+
+.button2:hover {
+  background-color:rgba(31, 58, 147, 1);
+  color: white;
+}
+
+.button3 {
+  background-color:transparent; 
+  color: white; 
+  border-radius: 5px;
+  border: 3px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 180px 8px;
+  -webkit-transition-duration: 0.2s; /* Safari 0.4*/
+  transition-duration: 0.2s;/0.4/
+  cursor: pointer;
+}
+
+  .screen
+{
+    background-image:url('bg.jpg');
+    background-size: cover;
+    width:100%;
+    height:600px;
+}
+body {
+  margin: 0;
+
+    background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  /background-color:rgba(43, 3, 3, 0.945);/
+  
+}
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  height: 70px;
+  border: 2px solid black;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.topnav-right {
+  float: right;
+}
+.col-sm-5.input-group1 {
+  padding-left: 0;
+  margin-bottom: 5px;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color:rgb(216, 41, 41);
+} 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.left {
+  left: 0;
+  background-color:white;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-image:url("https://image.shutterstock.com/image-vector/man-love-vector-flat-cartoon-600w-413863891.jpg");
+ background-size:100%,100%;
+ background-repeat: no-repeat;
+}
+.form_but1 {
+  margin-bottom: 1em;
+}
+.form_radios {
+  color: #000;
+  font-size: 0.85em;
+}
+.control-lable1 {
+  padding-left: 0;
+  font-size: 0.85em;
+  color: #555;
+
+
+########################################################################3
+########################################################################33
