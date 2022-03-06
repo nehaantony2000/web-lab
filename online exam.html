@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type="text/javascript">
+var i=0;
+function exam()
+{if(document.f1.n1[0].checked)
+i=i+1;
+if(document.f1.n2[0].checked)
+i=i+1;
+alert("your score is"+i+"/2");
+}
+
+</script>
+</head>
+
+<body>
+<form name="f1">
+<h1>even prime number is</h1>
+<input type="radio" id="numbr" name="n1" value="two">
+<label for="choice-two">two</label>
+<input type="radio" id="numbr" name="n1" value="four">
+<label for="choice-one">four</label>
+<h1>floor value of 3.4 is</h1>
+<input type="radio" id="numbr1" name="n2" value="3">
+<label for="choice-1">3</label>
+<input type="radio" id="numbr1" name="n2" value="4">
+<label for="choice-2">4</label>
+ <input type="submit" value="Submit" onclick="exam(this)">
+</form>
+</body>
+</html>

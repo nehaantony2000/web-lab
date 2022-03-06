@@ -1,0 +1,22 @@
+<html >
+
+<head>
+        <title>Background  color  change</title>
+
+</head>
+
+<body>
+
+    <input id="btn" type="button" value="Change background color" onclick="colorchange()">
+    <script>
+        
+        function colorchange() {
+           
+             var color = '#' + Math.random().toString(16).slice(2,8);
+alert(color);
+            document.body.style.background = color;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript">
+function sub(inputText)
+{
+if(document.getElementById("t1").value == "")
+alert("enter your name");
+else if(document.getElementById("t2").value == "")
+alert(" enter your password");
+else if(document.getElementById("t2").value != document.getElementById("t3").value)
+alert(" enter valid password");
+else if(document.getElementById("t4").value == "")
+alert("enter your current address");
+else
+alert("Form has been submitted");
+
+}
+
+</script>
+</head>
+<body>
+<form name="form">
+<p align="left">
+User Name:<input type="text" id="t1"><br><br>
+Password:<input type="text" id="t2"><br><br>
+Confirm Password:<input type="text" id="t3"><br><br>
+email:<input type="text" id="t4"><br><br>
+Address:<textarea rows="2" cols="25" id="t4"></textarea><br><br>
+<input type="button" value="Submit" onclick="sub(document.form.t4.value)">
+<input type="reset" value="Clear All">
+</p>
+</form>
+</body>
+</html>
